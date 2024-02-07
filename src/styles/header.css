@@ -1,0 +1,28 @@
+.body {
+    background: #000;
+    width: 100%;
+    height: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container-li {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.link {
+    color: #FFF;
+    font-weight: 300;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.link:hover {
+    color: #613DC1;
+    transition: 500ms;
+}
